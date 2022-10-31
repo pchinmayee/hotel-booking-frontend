@@ -1,1 +1,1 @@
-# Getting Started with REACT
+# Getting Started with Hotel Booking App.
