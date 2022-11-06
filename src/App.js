@@ -3,6 +3,8 @@ import Footer from './components/footer/Footer'
 
 import Home from './pages/home/Home'
 
+import './index.css'
+
 function App() {
   return (
     <>
