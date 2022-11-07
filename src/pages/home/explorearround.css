@@ -1,29 +1,29 @@
 .item{
     max-height: 25rem;
     min-width: 17.5rem;
-    padding: 10px;
-    padding-bottom:40px;
+    padding-top: 10px;
     padding-left: 20px;
+    padding-right: 20px;
   }
   
-  .item img{
+.item img{
     width: 100%;
     height: 100%;
     border-radius: 2rem;
     pointer-events: none;
   }
   
-  .inner-carousel{
+.inner-carousel{
     display:flex;
   
   }
   
-  .carousel{
+.carousel{
     cursor:grab;
     overflow: hidden;
   }
   
-  .why{
+.why{
       font-family: 'Open Sans';
       font-style: italic;
       font-weight: 600;
@@ -34,7 +34,7 @@
       padding-left: 2%;
   }
   
-  .bro{
+.bro{
     font-family: 'Open Sans';
     font-style: italic;
     font-weight: 300;
@@ -44,3 +44,11 @@
     color: #000000;
     padding-left: 2%;
     }
+
+.tell{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #AFAFAF;
+    font-size: 15px;
+}
