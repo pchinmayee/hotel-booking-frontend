@@ -1,0 +1,106 @@
+/* #03346d */
+
+/* Google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+.top {
+  display: flex;
+  background-color: #03346d;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.top h1 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.top p {
+  font-size: x-large;
+  margin-top: 0;
+  opacity: 0.8;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top form {
+  width: 60%;
+  margin-left: 70px;
+}
+
+.top button {
+  background-color: #fd841f;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin-left: 10px;
+}
+
+.top form input {
+  font-size: 20px;
+  width: 60%;
+  border: none;
+  padding: 15px 20px;
+  outline: none;
+  background: #efefef;
+}
+
+.mid {
+  background-color: #b3cce0;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid hr {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background: #03346d;
+}
+
+.mid button {
+  background-color: #b3cce0;
+  font-weight: 100;
+  opacity: 0.8;
+  font-style: italic;
+  margin: 15px auto;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 30px;
+}
+
+.mid ul,
+.bottom ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.mid a {
+  color: black;
+  font-size: 18px;
+}
+
+.social {
+  margin: 0;
+}
+
+.bottom {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.bottom p {
+  font-size: 16px;
+  color: #b3cce0;
+}
