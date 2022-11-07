@@ -1,0 +1,46 @@
+.item{
+    max-height: 25rem;
+    min-width: 17.5rem;
+    padding: 10px;
+    padding-bottom:40px;
+    padding-left: 20px;
+  }
+  
+  .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+  }
+  
+  .inner-carousel{
+    display:flex;
+  
+  }
+  
+  .carousel{
+    cursor:grab;
+    overflow: hidden;
+  }
+  
+  .why{
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 44px;
+      letter-spacing: 0.05em;
+      color: #000000;
+      padding-left: 2%;
+  }
+  
+  .bro{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-left: 2%;
+    }
