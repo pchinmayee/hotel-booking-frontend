@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Next-trip.css";
-function Next_trip_cards(props) {
+import "./Nexttrip.css";
+function Nexttripcards(props) {
 
   return (
     <div className='card'>
@@ -12,4 +12,4 @@ function Next_trip_cards(props) {
   )
 }
 
-export default Next_trip_cards
+export default Nexttripcards
