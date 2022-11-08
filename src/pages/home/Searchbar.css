@@ -1,0 +1,57 @@
+  
+  .App {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  input.inputBox {
+    font-size: 15px;
+    padding: 5px 8px 4px 8px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    height: 30px;
+    width: 200px;
+  }
+  
+  .calendarWrap {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .calendarElement {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+    border: 1px solid #ccc;
+    z-index: 999;
+  }
+
+.search-location{
+    width: 280px;
+    height: 35px;
+    border-radius:5px;
+    margin-left: 20px;
+}
+
+.search{
+  width:200px;
+  height: 35px;
+
+}
+
+.main_search{
+    width:95%;
+    border-radius: 4px;
+    height: 100px;
+    background-color: #03396C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 30px;
+    min-width: 10rem;
+    flex-wrap: wrap;
+
+}
+
+

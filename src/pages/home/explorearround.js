@@ -2,6 +2,7 @@ import './explorearround.css';
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import images from './images';
+import React from 'react';
 
 function App() {
   
