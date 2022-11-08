@@ -1,8 +1,8 @@
 import React from 'react'
-import Next_trip_cards from './Next_trip_cards';
+import Nexttripcards from './Nexttripcards';
 import { AiOutlineDoubleLeft,AiOutlineDoubleRight } from "react-icons/ai";
-import {next_trip_Data} from "./Next_trip_data"
-import "./Next-trip.css";
+import {nexttripData} from "./Nexttripdata"
+import "./Nexttrip.css";
 function Next_trip() {
 
 const slide = (shift)=>{
@@ -18,8 +18,8 @@ const slide = (shift)=>{
 
       <div id="slider">
         {
-          next_trip_Data.map((user) => (
-            <Next_trip_cards img={user.img} text={user.text}/>
+          nexttripData.map((user) => (
+            <Nexttripcards img={user.img} text={user.text}/>
           ))
         }
       </div>
