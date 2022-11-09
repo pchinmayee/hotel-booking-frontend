@@ -1,5 +1,6 @@
 import Buttons2 from "./Buttons2"
 import {FaHotel} from "react-icons/fa"
+import React from "react"
 import {MdFlight,MdCarRental,MdOutlineAttractions} from "react-icons/md"
 function NavbarBottomItems() {
   return (
