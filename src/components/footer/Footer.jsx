@@ -21,20 +21,20 @@ function Footer() {
         <hr />
         <ul>
           <li>
-            <a href="#"> Your Account </a>
+            <a href="/#"> Your Account </a>
           </li>
 
           <li>
-            <a href="#">Make change online to your booking</a>
+            <a href="/#">Make change online to your booking</a>
           </li>
           <li>
-            <a href="#">Booking History</a>
+            <a href="/#">Booking History</a>
           </li>
           <li>
-            <a href="#">Cancel Booking</a>
+            <a href="/#">Cancel Booking</a>
           </li>
           <li>
-            <a href="#">Costumer Help</a>
+            <a href="/#">Costumer Help</a>
           </li>
         </ul>
       </div>
