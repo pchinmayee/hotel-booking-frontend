@@ -13,7 +13,7 @@ function Footer() {
           <i>Sign Up and you will never miss on any offer</i>
         </p>
         <form action="">
-          <input type="text" placeholder="email address..." />
+          <input type="text" placeholder="Your Email" />
           <button>Register</button>
         </form>
       </div>
@@ -68,7 +68,7 @@ function Footer() {
         <p>© Copyright Booking.com. All rights reserved</p>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

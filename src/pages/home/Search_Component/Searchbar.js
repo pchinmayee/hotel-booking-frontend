@@ -1,9 +1,8 @@
 import React from 'react';
 import './Searchbar.css';
 import DateRangePickerComp from './DateRangePickerComp';
-import Button from '../../components/navbar/Button';
+import Button from '../../../components/navbar/Button';
 import Dropdown from './Dropdown';
-import {GrLocation} from 'react-icons/gr'
 
 
 

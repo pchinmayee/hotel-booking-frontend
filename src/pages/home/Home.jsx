@@ -1,8 +1,7 @@
-import React from 'react';
-import Explorearround from './explorearround';
-import Slider from './Slider';
-import Searchbar from './Searchbar';
-
+import React from 'react'
+import Explorearround from './explorearround'
+import Slider from './Slider_Component/Slider'
+import Searchbar from './Search_Component/Searchbar'
 
 function Home() {
   return <div>
