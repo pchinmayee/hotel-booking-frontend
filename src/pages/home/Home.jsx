@@ -1,13 +1,12 @@
 import React from 'react'
 import Explorearround from './explorearround'
-
-import NextTrip from './next_trip/Nexttrip'
-import Slider from './Slider'
+import Slider from './Slider_Component/Slider'
+import Searchbar from './Search_Component/Searchbar'
 
 function Home() {
   return <div>
     <Slider />
-    <NextTrip/>
+    <Searchbar/>
     <Explorearround />
   </div>
 }
