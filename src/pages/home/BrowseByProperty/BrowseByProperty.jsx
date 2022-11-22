@@ -1,4 +1,5 @@
 import "./BrowseByProperty.css"
+import React from "react"
 import Card from "./Card"
 import {useState} from 'react'
 import BrowseByPropertyData from "./BrowseByPropertyData"

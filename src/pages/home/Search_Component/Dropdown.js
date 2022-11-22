@@ -9,19 +9,39 @@ function Dropdown() {
     const[itemList]=useState([
         {
             value:"limit1",
-            name:"2 Adult . 1 Child . 1 Room"
+            name:"Single   . 1 Bed . 1 Person"
         },
         {
             value:"limit2",
-            name:"2 Adult . 1 Child . 2 Room"
+            name:"Double   . 1/2 Bed . 2 Person"
         },
         {
             value:"limit3",
-            name:"4 Adult . 2 Child . 2 Room"
+            name:"Triple   . 3 Bed . 3 Person"
         },
         {
             value:"limit4",
-            name:"2 Adult . 3 Child . 2 Room"
+            name:"Queen    . 1 Bed . 1/2 Person"
+        },
+        {
+            value:"limit5",
+            name:"King     . 1 Bed . 1/2 Person"
+        },
+        {
+            value:"limit6",
+            name:"Twin     . 2 Bed . 2 Person"
+        },
+        {
+            value:"limit7",
+            name:"Suite/Executive Suite"
+        },
+        {
+            value:"limit8",
+            name:"Appartment"
+        },
+        {
+            value:"limit9",
+            name:"Villa"
         },
         
     ]);
@@ -34,7 +54,7 @@ function Dropdown() {
             <div className='custom-dropdown-selection'  onClick={e=>{
                 setIsDropDownVisible(!isDropDownVisible);
             }}>
-                {selectedItemIndex!==null?itemList[selectedItemIndex].name:"2 Adult . 1 Child . 1 Room"}
+                {selectedItemIndex!==null?itemList[selectedItemIndex].name:"Room Type"}
             </div>
             {
                 isDropDownVisible?(

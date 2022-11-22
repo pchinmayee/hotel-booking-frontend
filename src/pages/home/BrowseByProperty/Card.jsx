@@ -1,3 +1,4 @@
+import React from "react"
 function Card({item}) {
     // const [text,setText] = useState()
     // const [image,setImage] = useState()

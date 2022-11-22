@@ -31,7 +31,7 @@
     width: 280px;
     height: 35px;
     border-radius:5px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .search{
@@ -53,5 +53,40 @@
     flex-wrap: wrap;
 
 }
+
+.location-icon{
+  width: 30px;
+  height: 30px;
+  color:white;
+}
+
+.total_search-location{
+  display: flex;
+  align-items: center;
+}
+
+
+.date_icon{
+  width: 30px;
+  height: 30px;
+  color:white;
+}
+
+.total_search-date-range{
+  display: flex;
+  align-items: center;
+}
+.hotel_icon{
+  width: 30px;
+  height: 30px;
+  color:white;
+}
+
+.total_dropdown{
+  display: flex;
+  align-items: center;
+}
+
+
 
 
